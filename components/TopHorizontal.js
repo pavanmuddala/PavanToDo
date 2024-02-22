@@ -8,7 +8,7 @@ const TopHorizontal = () => {
                     <button className={styles.btnPrimary}>YuppFlix</button>
                     <button className={styles.btnPrimary}>Why us</button>
                     <button className={styles.btnPrimary}>Ways to watch</button>
-                    <button className={styles.btnPrimary}>FAQ's</button>
+                    <button className={styles.btnPrimary}>FAQs</button>
                     <button className={styles.btnPrimary}>Contact us</button>
                     <button className={styles.btnLanguage}>Language</button>
                     <button className={styles.btnPrimary}>Reach us at support@yupptv.com</button>
