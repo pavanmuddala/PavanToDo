@@ -56,7 +56,7 @@ const ToDoList = () => {
             <div className={styles.toDoListContainer}>
                 {
                     todoList.map((f, index) =>
-                        <div className={styles.box}>
+                        <div className={styles.box} key={index}>
                             <div className={styles.boxHead} style={{ backgroundColor: colorList[index % 5] }}></div>
                             <div className={styles.boxHeader}>{f.task}</div>
                             <div className={styles.floatLeft + " " + styles.padding + " " + styles.description}>{f.description}</div>
